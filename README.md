@@ -29,10 +29,14 @@ and calculate all the point inside the sqaure.
 The ratio between the number of points inside the circle and number of points inside the square will be preety closed to ratio between the total area of circle and total area of this sqaure.
 
 **The total area of the circle**
+
 ![img7](./RepoEssentials/img8.png)
 
 **The total area of the sqaure**
+
 ![img8](./RepoEssentials/img9.png)
+
+**Eqaulling the ratios**
 
 ![img7](./RepoEssentials/img16.png)
 
