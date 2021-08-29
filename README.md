@@ -13,6 +13,6 @@ Let take an example of **x = 0.2** and **y = 0.6**, then we are gonna get somewh
 
 ![imge2](https://github.com/Rajat-Dabade/Best-Coding-Question/blob/master/RepoEssentials/img2.png)
 
->Now let me draw a sqaure through it.
+>Now let me draw a sqaure and circle through it.
 
-![imge3](https://github.com/Rajat-Dabade/Best-Coding-Question/blob/master/RepoEssentials/img3.png)
+![imge3](https://github.com/Rajat-Dabade/Best-Coding-Question/blob/master/RepoEssentials/img4.png)
