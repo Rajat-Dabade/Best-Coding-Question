@@ -28,15 +28,22 @@ and calculate all the point inside the sqaure.
 
 The ratio between the number of points inside the circle and number of points inside the square will be preety closed to ratio between the total area of circle and total area of this sqaure.
 
-**The total area of the circle**
+>**The total area of the circle**
 
 ![img7](./RepoEssentials/img8.png)
 
-**The total area of the sqaure**
+>**The total area of the sqaure**
 
 ![img8](./RepoEssentials/img9.png)
 
-**Eqaulling the ratios**
+>**Eqaulling the ratios will be like :**
 
-![img7](./RepoEssentials/img16.png)
+![img9](./RepoEssentials/img16.png)
 
+So, how do you know that the point lays inside the circle. Well it preety simple, you just take the distance between the point to the origin and if it is smaller than 1 than the point will be inside the circle.
+
+>**For Example let takes this one**
+
+![img10](./RepoEssentials/img10.png)
+
+So the distance is basically \sqrt{x^2 + y^2} 
