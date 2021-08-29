@@ -19,7 +19,7 @@ Let take an example of **x = 0.2** and **y = 0.6**, then we are gonna get somewh
 
 As you can see now, the goal hear is to calculate all the point inside the circle
 
-![img5](https://github.com/Rajat-Dabade/Best-Coding-Question/blob/master/RepoEssentials/img6.png)
+![img5](https://github.com/Rajat-Dabade/Best-Coding-Question/blob/master/RepoEssentials/img6.png = 100x100)
 
 and calculate all the point inside the sqaure.
 
