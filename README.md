@@ -46,4 +46,8 @@ So, how do you know that the point lays inside the circle. Well it preety simple
 
 ![img10](./RepoEssentials/img10.png)
 
-So the distance is basically \sqrt{x^2 + y^2} 
+So the distance is basically 
+
+$$\sqrt{x^2 + y^2}$$
+
+
