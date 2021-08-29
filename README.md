@@ -7,5 +7,5 @@ So the basic idea to randomly draw a point from a 1 to 1 square, scenes you can 
 
 Let take an example of x = 0.2 and y = 0.6, then we will get somewhere the point like here.
 
-![imge1](https://github.com/Rajat-Dabade/Best-Coding-Question/blob/master/RepoEssentials/img1.png)
+<img src="https://github.com/Rajat-Dabade/Best-Coding-Question/blob/master/RepoEssentials/img1.png" alt="drawing" style="width:200px; higth: 200px"/>
 
