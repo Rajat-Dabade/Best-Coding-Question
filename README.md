@@ -7,7 +7,8 @@ So the basic idea is to randomly draw a point in a 1 to 1 square, since you can 
 
 Let take an example of **x = 0.2** and **y = 0.6**, then we are gonna get somewhere the point like here.
 
-![imge1](https://github.com/Rajat-Dabade/Best-Coding-Question/blob/master/RepoEssentials/img1.png)
+![imge1](./RepoEssentials/img1.png)
+
 
 >So, let me randomly draw some more point then it will be look like
 
