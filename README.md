@@ -1,46 +1,46 @@
 # Problem Statement
->You have a function that generate a number between 0 to 1 randomly which is uniformly distributed. Now calculate the number pi.
+>You have a function that generates a number between 0 to 1 randomly which is uniformly distributed. Now calculate the number pi.
 
-# Solution Explaination in Python
+# Solution Explanation in Python
 
-So the basic idea is to randomly draw a point in a 1 to 1 square, since you can call the ```random.uniform(0, 1)``` function twice *(Done in the Python/CalculatePi.py on line number : 9 and 10)*, it will generate 2 number between 0 to 1. Let's use them one from the x axis and one for y axis. 
+So the basic idea is to randomly draw a point in a 1 to 1 square since you can call the ```random.uniform(0, 1)``` function twice *(Done in the Python/CalculatePi.py on line number: 9 and 10)*, it will generate 2 numbers between 0 to 1. Let's use one from the x-axis and one for the y-axis. 
 
 Let take an example of **x = 0.2** and **y = 0.6**, then we are gonna get somewhere the point like here.
 
 ![imge1](./RepoEssentials/img1.png)
 
 
-So, let me randomly draw some more point then it will be look like
+So, let me randomly draw some more points then it will look like
 
 ![imge2](./RepoEssentials/img2.png)
 
-Let's me draw a sqaure and circle through it.
+Let's me draw a square and circle through it.
 
 ![imge3](./RepoEssentials/img4.png)
 
-As you can see now, the goal hear is to calculate all the point inside the circle
+As you can see now, the goal here is to calculate all the points inside the circle
 
 ![img5](./RepoEssentials/img6.png)
 
-and calculate all the point inside the sqaure.
+and calculate all the points inside the square.
 
 ![img6](./RepoEssentials/img7.png)
 
-The ratio between the number of points inside the circle and number of points inside the square will be preety closed to ratio between the total area of circle and total area of this sqaure.
+The ratio between the number of points inside the circle and the number of points inside the square will be pretty closed to the ratio between the total area of a circle and the total area of this square.
 
 >**The total area of the circle**
 
 ![img7](./RepoEssentials/img8.png)
 
->**The total area of the sqaure**
+>**The total area of the square**
 
 ![img8](./RepoEssentials/img9.png)
 
->**Eqaulling the ratios will be like :**
+>**Equalling the ratios will be like:**
 
 ![img9](./RepoEssentials/img16.png)
 
-So, how do you know that the point lays inside the circle. Well it preety simple, you just take the distance between the point to the origin and if it is smaller than 1 than the point will be inside the circle.
+So, how do you know that the point lies inside the circle? Well, it is pretty simple, you just take the distance between the point to the origin and if it is smaller than 1 then the point will be inside the circle.
 
 >**For Example let takes this one**
 
@@ -51,7 +51,7 @@ So the distance is basically will the
 squareRoot = sqrt(x^2 + y^2)
 ```
 
-if ```squareRoot``` is smaller than one than the point lies inside the circle and if it is larger than one than the point lies outside the circle but still will be inside the sqaure.
+if ```squareRoot``` is smaller than one then the point lies inside the circle and if it is larger than one then the point lies outside the circle but still will be inside the square.
 
 >Now the basic algebra will work
 
@@ -62,7 +62,7 @@ As the radius is 1
 ![img12](./RepoEssentials/img19.jpg)
 ![img13](./RepoEssentials/img18.jpg)
 
-I got the more accurate value of pi for n = 100000000. As it uses ```random.uniform()``` method, the answer you will get will be different.
+I got the more accurate value of pi for n = 100000000. As it uses the ```random.uniform()``` method, the answer you will get will be different.
 
 ```
 n = 100000000
