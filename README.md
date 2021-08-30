@@ -72,5 +72,5 @@ n = 100000000
 ![img14](./RepoEssentials/img15.png)
 
 
-Guide to contribute is in Contribute file. Here is the link
-[contribute](./Contribute.md)
+>**Guide to contribute is in Contribute file. Here is the link
+[contribute](./Contribute.md)**
