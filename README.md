@@ -1,11 +1,11 @@
 # Problem Statement
 >You have a function that generates a number between 0 to 1 randomly which is uniformly distributed. Now calculate the number pi.
 
-# Solution Explanation in Python
+# Solution Explanation
 
 So the basic idea is to randomly draw a point in a 1 to 1 square since you can call the ```random.uniform(0, 1)``` function twice *(Done in the Python/CalculatePi.py on line number: 9 and 10)*, it will generate 2 numbers between 0 to 1. Let's use one from the x-axis and one for the y-axis. 
 
-Let take an example of **x = 0.2** and **y = 0.6**, then we are gonna get somewhere the point like here.
+Let take an example if the 2 randomly generated numbers are  **x = 0.2** and **y = 0.6**, then we are going to get somewhere point like this.
 
 ![imge1](./RepoEssentials/img1.png)
 
@@ -14,15 +14,17 @@ So, let me randomly draw some more points then it will look like
 
 ![imge2](./RepoEssentials/img2.png)
 
-Let's me draw a square and circle through it.
+After drawing a square and circle through it, it will look like: 
 
 ![imge3](./RepoEssentials/img4.png)
 
-As you can see now, the goal here is to calculate all the points inside the circle
+As you can see now, the goal here is to calculate all the points inside the circle and calculate all the points inside the square.
+
+>**Points inside the circle**
 
 ![img5](./RepoEssentials/img6.png)
 
-and calculate all the points inside the square.
+>**Points inside the square**
 
 ![img6](./RepoEssentials/img7.png)
 
@@ -40,7 +42,7 @@ The ratio between the number of points inside the circle and the number of point
 
 ![img9](./RepoEssentials/img16.png)
 
-So, how do you know that the point lies inside the circle? Well, it is pretty simple, you just take the distance between the point to the origin and if it is smaller than 1 then the point will be inside the circle.
+So, how do you know that the point lies inside the circle? Well, it is pretty simple, you just take the distance between the point to the **origin** and if it is smaller than or equal to 1 then the point will be inside the circle.
 
 >**For Example let takes this one**
 
@@ -59,7 +61,7 @@ if ```squareRoot``` is smaller than one then the point lies inside the circle an
 ```
 As the radius is 1
 ```
-![img12](./RepoEssentials/img19.jpg)
+![img12](./RepoEssentials/img20.jpg)
 ![img13](./RepoEssentials/img18.jpg)
 
 I got the more accurate value of pi for n = 100000000. As it uses the ```random.uniform()``` method, the answer you will get will be different.
