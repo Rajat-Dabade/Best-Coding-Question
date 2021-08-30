@@ -70,3 +70,7 @@ I got the more accurate value of pi for n = 100000000. As it uses the ```random.
 n = 100000000
 ```
 ![img14](./RepoEssentials/img15.png)
+
+
+Guide to contribute is in Contribute file. Here is the link
+[contribute](./Contribute.md)
