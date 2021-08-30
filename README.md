@@ -46,8 +46,21 @@ So, how do you know that the point lays inside the circle. Well it preety simple
 
 ![img10](./RepoEssentials/img10.png)
 
-So the distance is basically 
+So the distance is basically will the  
+```
+squareRoot = sqrt(x^2 + y^2)
+```
 
-$$\sqrt{x^2 + y^2}$$
+if ```squareRoot``` is smaller than one than the point lies inside the circle and if it is larger than one than the point lies outside the circle but still will be inside the sqaure.
 
+>Now the basic algebra will work
+
+![img11](./RepoEssentials/img17.jpg)
+```
+As the radius is 1
+```
+![img12](./RepoEssentials/img19.jpg)
+![img13](./RepoEssentials/img18.jpg)
+
+I got the more accurate value of pi for n = 100000000. As it uses ```random.uniform()``` method, the answer you will get will be different.
 
