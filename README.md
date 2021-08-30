@@ -1,7 +1,7 @@
 # Problem Statement
 >You have a function that generate a number between 0 to 1 randomly which is uniformly distributed. Now calculate the number pi.
 
-# Solution Explaination
+# Solution Explaination in Python
 
 So the basic idea is to randomly draw a point in a 1 to 1 square, since you can call the ```random.uniform(0, 1)``` function twice *(Done in the Python/CalculatePi.py on line number : 9 and 10)*, it will generate 2 number between 0 to 1. Let's use them one from the x axis and one for y axis. 
 
@@ -14,7 +14,7 @@ So, let me randomly draw some more point then it will be look like
 
 ![imge2](./RepoEssentials/img2.png)
 
-Now let me draw a sqaure and circle through it.
+Let's me draw a sqaure and circle through it.
 
 ![imge3](./RepoEssentials/img4.png)
 
@@ -64,3 +64,7 @@ As the radius is 1
 
 I got the more accurate value of pi for n = 100000000. As it uses ```random.uniform()``` method, the answer you will get will be different.
 
+```
+n = 100000000
+```
+![img14](./RepoEssentials/img15.png)
