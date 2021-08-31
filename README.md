@@ -1,11 +1,11 @@
 # Problem Statement
->You have a function that generates a number between 0 to 1 randomly which is uniformly distributed. Now calculate the number pi.
+>**You have a function that generates a number between 0 to 1 randomly which is uniformly distributed. Now calculate the number pi.**
 
 # Solution Explanation
 
 So the basic idea is to randomly draw a point in a 1 to 1 square since you can call the ```random.uniform(0, 1)``` function twice *(Done in the Python/CalculatePi.py on line number: 9 and 10)*, it will generate 2 numbers between 0 to 1. Let's use one from the x-axis and one for the y-axis. 
 
-Let take an example if the 2 randomly generated numbers are  **x = 0.2** and **y = 0.6**, then we are going to get somewhere point like this.
+Lets take an example if the 2 randomly generated numbers are  **x = 0.2** and **y = 0.6**, then we are going to get point somewhere like this.
 
 ![imge1](./RepoEssentials/img1.png)
 
@@ -14,7 +14,7 @@ So, let me randomly draw some more points then it will look like
 
 ![imge2](./RepoEssentials/img2.png)
 
-After drawing a square and circle through it, it will look like: 
+**The tricky part and the Hint:** The only way to find the value of pi is with the help of circle and square and their area's. So let me draw a circle and square through it. 
 
 ![imge3](./RepoEssentials/img4.png)
 
@@ -42,13 +42,13 @@ The ratio between the number of points inside the circle and the number of point
 
 ![img9](./RepoEssentials/img16.png)
 
-So, how do you know that the point lies inside the circle? Well, it is pretty simple, you just take the distance between the point to the **origin** and if it is smaller than or equal to 1 then the point will be inside the circle.
+So, how do you know that the point lies inside the circle? Well, it is pretty simple, you just take the distance between any random point to the **origin** and if it is smaller than or equal to 1 then the point will lie inside the circle.
 
 >**For Example let takes this one**
 
 ![img10](./RepoEssentials/img10.png)
 
-So the distance is basically will the  
+So the distance will be 
 ```
 squareRoot = sqrt(x^2 + y^2)
 ```
@@ -64,7 +64,7 @@ As the radius is 1
 ![img12](./RepoEssentials/img20.jpg)
 ![img13](./RepoEssentials/img18.jpg)
 
-I got the more accurate value of pi for n = 100000000. As it uses the ```random.uniform()``` method, the answer you will get will be different.
+I got the more accurate value of pi for n = 100000000. As it uses the ```random.uniform(0, 1)``` method, the answer you get will be different.
 
 ```
 n = 100000000
