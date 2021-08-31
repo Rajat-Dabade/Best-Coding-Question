@@ -3,7 +3,7 @@
 
 # Solution Explanation
 
-So the basic idea is to randomly draw a point in a 1 to 1 square since you can call the ```random.uniform(0, 1)``` function twice *(Done in the Python/CalculatePi.py on line number: 9 and 10)*, it will generate 2 numbers between 0 to 1. Let's use one from the x-axis and one for the y-axis. 
+So the basic idea is to randomly draw a point in a 1 to 1 square since you can call the ```random.uniform(0, 1)``` function twice it will generate 2 numbers between 0 to 1. Let's use one from the x-axis and one for the y-axis. 
 
 Lets take an example if the 2 randomly generated numbers are  **x = 0.2** and **y = 0.6**, then we are going to get point somewhere like this.
 
@@ -68,6 +68,7 @@ I got the more accurate value of pi for n = 100000000. As it uses the ```random.
 
 ```
 n = 100000000
+pi = 3.1415
 ```
 ![img14](./RepoEssentials/img15.png)
 
