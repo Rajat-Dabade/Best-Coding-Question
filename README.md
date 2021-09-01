@@ -75,5 +75,5 @@ pi = 3.1415
 
 ## If you like to write the answer in another language
 ---
->**Guide to contribute is in Contribute file. Here is the link
-[contribute](./Contribute.md)**
+>**Here is the link
+[contribute](./Contribute.md) to contribute**
